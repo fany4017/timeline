@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Timeline::Application.config.secret_key_base = '1e2678086bbe75acc37669a0edd29d85f8439f53dc71395508c0f594d5d2faa7b5014cd43074cd5f0f9da754d1d9e99ed407a61f31a2a5c7788cfee3d1ae80fe'
+Timeline::Application.config.secret_key_base = '0634ba26dd043dba3c97d8c7818b2bf40a16d79b073a57ca19316c35888f5d2be8cc52d8e9db7ce5c299c5278de2a410c927945318605de4d86d190d9264cfe7'
