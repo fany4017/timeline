@@ -17,7 +17,7 @@ class WallController < ApplicationController
 	def edit
 		@post_edit = Post.find(params[:id])
 	end
-	def edit
+	def edit_complete
 		p = Post.find(params[:id])
 		p.name = params[:writer_edit]
 		p.content = params[:content_edit]
