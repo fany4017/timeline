@@ -1,3 +1,7 @@
+<div>
+	<h4><%= flash[:alert] %></h4>
+	<a href="/user/signup">sigin up</div>
+</div>
 
 <div style="background-color: #e9eaed;">
 <h1>Recent Posts</h1>
@@ -20,3 +24,6 @@
 									  <% end %>
 										  <a href="/wall/write">Write post again</a>
 											</div>
+						<%User.all.each do |user| %>
+						<p><%= user.username%></p>
+						<%end%>
